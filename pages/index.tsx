@@ -133,7 +133,7 @@ export default function App() {
           start
         </button>
       </div>
-      <div className="flex justify-center mt-8 text-4xl font-bold text-white">
+      <div className="flex justify-center mt-8 text-6xl font-bold text-white">
         <div>
           {("00" + addHour).slice(-2)}:{("00" + addMinute).slice(-2)}:
           {("00" + addSecond).slice(-2)}
