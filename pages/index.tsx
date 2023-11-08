@@ -80,6 +80,9 @@ export default function App() {
         setHour(0);
         setMinute(0);
         setSecond(0);
+        setStartActive(false);
+        setStopActive(true);
+        setRestartActive(true);
         setInputActive(false);
         clearInterval(intervalId.current);
       }
